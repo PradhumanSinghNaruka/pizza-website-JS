@@ -634,3 +634,608 @@
 #phone i:hover{
     color: rgba(255, 166, 0, 0.699);
 }
+
+@media screen and (max-width:600px)
+{
+    #main{
+        display: flex;
+        width: 873px;
+        height: 100px;
+        gap: 0.5px;
+    }
+    #main h4{
+        margin-left: 13px;
+        background-color: #d4d0d0;
+    }
+    #main img{
+        height: 100px;
+        width: 90px;
+    }
+    #main i{
+        margin-left: 0.2px;
+        margin-top: 60px;
+    }
+    #image{
+        width: 873px;
+    }
+    #main1{
+        position: relative;
+        background-color: hsl(0, 0%, 0%);
+        width: 873px;
+        z-index: 2;
+    }
+    #page1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #00000015;
+        font-size: 24px; 
+        text-align: center;
+        width: 873px;
+        height: 600px;
+    }
+    #page1 h1{
+        font-size: 90px;
+        margin-left: 50px;
+        gap: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #line{
+        background-color: hsla(0, 0%, 0%, 0);
+        color: hwb(0 100% 0%);
+        gap: 50px;
+        font-size: 50px;
+    }
+    #page1 p{
+        background-color: hsla(0, 0%, 0%, 0);
+        color: hsl(0, 0%, 100%);
+        font-size: 30px;
+        margin-top: 2vw;
+        gap: 30px;
+    }
+    
+    #second{
+        width: 873px;
+    }
+    #second h1{
+        color: white;
+        text-align: center;
+        font-size: 70px;
+        margin-top: 10px;
+    }
+    #second h2{
+        color: white;
+        justify-content: left;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    #second i{
+        z-index: 2;
+        width: 10%;
+    }
+    #varity{
+        background-color: hsla(0, 73%, 51%, 0.863);
+        width: 873px;
+        height: 80vh;
+        position: relative;
+        z-index: 2;
+        display: flex;
+    }
+    #varity1{
+        width: 270px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 6px;
+    }
+    #varity1:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity1 img{
+        width: 240px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    #varity1 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity1 p{
+        text-align: center;
+    }
+    #varity1 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity1 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity2{
+        width: 275px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    #varity2:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity2 img{
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+        
+    }
+    #varity2 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity2 p{
+        text-align: center;
+    }
+    #varity2 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity2 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity3{
+        width: 290px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    #varity3:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity3 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    #varity3 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity3 p{
+        text-align: center;
+    }
+    #varity3 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity3 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity4{
+        background-color: hsla(0, 73%, 51%, 0.863);
+        width: 873px;
+        height: 80vh;
+        position: relative;
+        z-index: 2;
+        display: flex;
+    }
+    #varity5{
+        width: 275px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 8px;
+    }
+    #varity5:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity5 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+    #varity5 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity5 p{
+        text-align: center;
+    }
+    #varity5 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity5 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity6{
+        width: 275px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 8px;
+    }
+    #varity6:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity6 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    #varity6 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity6 p{
+        text-align: center;
+    }
+    #varity6 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity6 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity7{
+        width: 290px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 8px;
+    }
+    #varity7:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity7 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    #varity7 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity7 p{
+        text-align: center;
+    }
+    #varity7 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity7 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    
+    #varity8{
+        background-color: hsla(0, 73%, 51%, 0.863);
+        width: 873px;
+        height: 400px;
+        position: relative;
+        z-index: 2;
+        display: flex;
+    }
+    #varity9{
+        width: 290px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 25vw;
+    }
+    #varity9:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity9 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    #varity9 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity9 p{
+        text-align: center;
+    }
+    #varity9 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity9 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    #varity10{
+        width: 290px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 8vw;
+    }
+    #varity10:hover{
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+    #varity10 img{
+        width: 260px;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+        border: 1px solid;
+    }
+    #varity10 h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #varity10 p{
+        text-align: center;
+    }
+    #varity10 button{
+        color: black;
+        background-color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 12px;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #varity10 button:hover{
+        background-color: #ff0000d3;
+        color: white;
+        transition: 0.4s;
+    }
+    
+    #order{
+        background-color: hsla(27, 100%, 50%, 0.816);
+        width: 873px;
+        height: 85vh;
+        display: flex;
+    }
+    #order h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style:initial;
+        font-size: 65px;
+        margin-left: 2vw;
+        padding: 70px;
+    }
+    #searches{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ece;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+    #input{
+        flex: 1;
+        border: none;
+        background: transparent;
+        padding: 30px;
+        outline: none;
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 300px;
+        /* margin-left: 70px; */
+        height: 20px;
+        margin-top: 60px;
+    }
+    
+    #outlier{
+       background-color: white;
+       width: 150px;
+       height: 360px;
+       margin-top: 6vw;
+       margin-left: 10vw;
+       border-radius: 20px;
+    }
+    #outlier h3{
+        color: hsla(27, 100%, 50%, 0.816);
+        gap: 20px;
+        padding: 18px;
+        font-size: 15px;
+    }
+    #outlier h3:hover{
+        color: black;
+        background-color: white;
+    }
+    #outlier h3 i{
+        font-size: 15px;
+        color: #107e62;
+        margin-left: 20px;
+    }
+    #outlier h3 i:hover{
+        color: black;
+    }
+    
+    #videos{
+        width: 873px;
+        height: 740px;
+        background-color: hsl(0, 5%, 66%);
+        display:inline-block;
+    }
+    #videos video{
+        width: 300px;
+        height: 300px;
+        margin-top: 5vw;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    #insta{
+        width: 873px;
+        height: 300px;
+        background-color: hsl(0, 23%, 94%);
+    }
+    #insta h1{
+        padding: 70px;
+        font-size: 30px;
+        margin-left: 30px;
+        color: hsla(22, 100%, 50%, 0.843);
+        display: flex;
+    }
+    #marqu img{
+        width: 16vw;
+        height: 16vw;  
+    }
+    
+    #last{
+        width: 873px;
+        height: 550px;
+        background-color: hsl(0, 5%, 66%);
+        display: flex;
+    }
+    .first{
+        margin-left: 10px;
+        color: black;
+        column-gap: 30px;
+        padding-block: 20px;
+        margin-bottom: 20px;
+    }
+    .first li{
+        font-size: 30px;
+        gap: 20px;
+    }
+    .second{
+        margin-left: 30px;
+        padding: 30px;
+    }
+    .second li{
+        font-size: 30px;
+    }
+    .third{
+        margin-left: 10px;
+        padding: 30px;
+    }
+    .third li{
+        font-size: 30px;
+    
+    }
+    
+    #phone{
+        width: 873;
+        height: 300px;
+        position: relative;
+        bottom: -20vw;
+        background-color: hsl(0, 0%, 100%);
+    }
+    #phone img{
+        height: 80vh;
+        margin: 0;
+        float: right;
+        position: relative;
+        top: -30vw;
+        display: none;
+    }
+    #phone h1{
+        font-size: 80px;
+        margin-top: 50px;
+        margin-left: 50px;
+        color: #3a3939;
+    }
+    #phone span{
+        font-size: 80px;
+        margin-top: 50px;
+        color: #ffa600d7;
+    }
+    #phone h3{
+        font-size: 80px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #phone i{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+    #phone i:hover{
+        color: rgba(255, 166, 0, 0.699);
+    }
+}
